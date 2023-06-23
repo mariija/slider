@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sliderSpace">
+        <div class="sliderInfo">
+            <h1><i id="activeNum"></i> / <label id="maxNum">50</label></h1>
+            <button type="button" name="button">X</button>
+        </div>
+        <div class="sliderMid">
+            <div class="slider">
+                <button id="prevBtn" type="button" name="button" onclick="prevImg()">
+                    <span>
+                        < </span> </button>
+                <img id="activeImg" src="pics/img2.jpg" alt="pic1">
+                <button id="nextBtn" type="button" name="button" onclick="nextImg()"> <span>
+                        > </span> </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
